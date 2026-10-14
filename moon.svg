@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fdf6e3" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#fdf6e3" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#fdf6e3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moon" cx="38%" cy="34%" r="72%">
+      <stop offset="0%" stop-color="#fffdf5"/>
+      <stop offset="55%" stop-color="#f2ecd8"/>
+      <stop offset="100%" stop-color="#d8d2bd"/>
+    </radialGradient>
+    <radialGradient id="crater" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c9c2ac"/>
+      <stop offset="80%" stop-color="#c9c2ac" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#c9c2ac" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- glow -->
+  <circle cx="256" cy="256" r="250" fill="url(#glow)"/>
+
+  <!-- moon body -->
+  <circle cx="256" cy="256" r="150" fill="url(#moon)"/>
+
+  <!-- craters -->
+  <g fill="url(#crater)">
+    <circle cx="205" cy="200" r="34"/>
+    <circle cx="300" cy="185" r="20"/>
+    <circle cx="235" cy="295" r="26"/>
+    <circle cx="310" cy="290" r="14"/>
+    <circle cx="268" cy="235" r="11"/>
+    <circle cx="185" cy="260" r="13"/>
+    <circle cx="325" cy="238" r="9"/>
+    <circle cx="250" cy="350" r="10"/>
+  </g>
+</svg>
